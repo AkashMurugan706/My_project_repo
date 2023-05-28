@@ -24,7 +24,7 @@ showStatus("KeyUp");
 }
 public void keyTyped(KeyEvent ke)
 {
-msg+=ke.getKeychar();
+msg+=ke.getKeyChar();
 repaint();
 }
 public void paint(Graphics g)

@@ -20,7 +20,6 @@ System.out.println(" Perfect");
 }
 else
 {
-System.out.println(" Not perfect");
-}
+System.out.println(" Not a perfect");}
 }
 }

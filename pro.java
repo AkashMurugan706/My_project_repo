@@ -86,7 +86,7 @@ System.out.println("Enter status");
           roomamt=Integer.parseInt(d.readLine());
           roomdays=Integer.parseInt(d.readLine());
           } 
-          else
+         else
           {
            System.out.println("enter non ac roomamt and days");
             roomamt=Integer.parseInt(d.readLine());

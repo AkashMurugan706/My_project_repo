@@ -1,0 +1,14 @@
+<html>
+<head>
+<script>
+function  ab()
+{
+alert("The alert is inside user defined is function")
+}
+</script>
+</head>
+<body onload ="alert("Welcome")
+onload="alert("Come Again")>
+<a href="javascript:ab()">Click Here</a>
+</body>
+</html>

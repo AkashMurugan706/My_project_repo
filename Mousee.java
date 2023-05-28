@@ -5,7 +5,7 @@ import java.applet.*;
 <applet code="Mousee" width=300 height=100>
 </applet>
 */
-class Mousee extends Applet implements MouseListener, MouseMotionListener
+public class Mousee extends Applet implements MouseListener, MouseMotionListener
 {
 String msg=" ";
 int mouseX=0, mouseY=0;
