@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+ var div=$("div");
+div.animate({height:'250px'},1000);
+div.animate({width:'250px'},1000);
+div.animate({height:'80px'},1000);
+div.animate({width:'80px'},1000);
+});
+});
+</script>
+</head>
+<body>
+<button>click for magic</button><br>
+<div style="background-color:red;width:80px;height:80px;position:absolute;"></div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("button").click(function(){
+$("#dd1").fadeIn(200);
+$("#dd2").fadeIn();
+$("#dd3").fadeIn(500);
+});
+});
+</script>
+</head>
+<body>
+<button>click for magic</button><br>
+<div id="dd1" style="background-color:red;display:none;width:80px;height:80px"></div><br>
+<div id="dd2" style="background-color:green;display:none;width:80px;height:80px"></div><br>
+<div id="dd3" style="background-color:black;display:none;width:80px;height:80px"></div><br>
+</body>
+</html>

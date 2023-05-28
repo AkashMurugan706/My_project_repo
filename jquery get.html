@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#dd").click(function(){
+alert("text:"+$("#ff").text());
+});
+$("#dd1").click(function(){
+alert("html:"+$("#ff").html());
+});
+$("#dd2").click(function(){
+alert("val:"+$("#ff").val());
+});
+$("#dd3").click(function(){
+alert("attribute:"+$("#ff1").attr("href"));
+});
+</script>
+</head>
+<body>
+<p id="ff"><font color="red"><b><i>Have a Nice day</b></i></font>
+<br></p>
+<p ><a href>https://img.freepik.com/free-vector/fuck-you-symbol-comic-style_23-2148684350.jpg?w=740&t=st=1675020648~exp=1675021248~hmac=34ed02266d5fb029d4fa02bc7ef1532a4cc7d305ae59fb4993c1c31d4096468e id= "ff1" </a></p>
+<button id="dd">click for  text</button>
+<button id="dd1">click for html </button>
+<button id="dd2">click for val </button>
+<button id="dd3">click for attribue </button>
+</body>
+</html>

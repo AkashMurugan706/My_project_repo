@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#dd1").click(function(){
+$("#dd2").slideDown(1000);
+$("#dd4").slideDown(1000);
+});
+$("#dd3").click(function(){
+$("#dd2").stop();
+$("#dd4").stop();
+});
+});
+</script>
+<style>
+#dd1,#dd2,#dd4
+{
+padding:5px;
+text-align:center;
+background-color:red;
+}
+#dd2,#dd4
+{
+padding:30px;
+display:none;
+}
+</style>
+</head>
+<body>
+<button id="dd3">click for Stop sliding down</button><br><br>
+<div id="dd1">click for slide down</div><br>
+<div id="dd2">Vanakam da Mapla</div><br>
+<div id="dd4">Vanakam da Mapla</div><br>
+</body>
+</html>

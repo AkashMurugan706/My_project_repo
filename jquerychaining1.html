@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$("document").ready(function(){
+$("button").click(function(){
+$("#dd").css("color","blue").slideToggle(3000);
+$("#dd").css("text-align","center").slideToggle(3000);
+});
+});
+</script>
+</head>
+<body>
+<button>click me</button>
+<p id="dd">Until now we have been writing jQuery statements one at a time (one after the other).<br>
+<br>
+However, there is a technique called chaining, that allows us to run multiple jQuery commands, one after the other, on the same element(s).<br><br>
+
+Tip: This way, browsers do not have to find the same element(s) more than once.<br><br>
+
+To chain an action, you simply append the action to the previous action.<br><br>
+
+The following example chains together the css(), slideUp(), and slideDown() methods. The "p1" element first changes to red, then it slides up, and then it slides down.</p>
+</body>
+</html>
