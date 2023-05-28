@@ -1,0 +1,18 @@
+import java.io.*;
+class throwsdemo
+{
+public static void main(String args[])throws IOException
+{
+int number;
+DataInputStream d=new DataInputStream(system.in);
+number=Integer.parseInt(d.eadline());
+try
+{
+if (number>10)
+throws new Exception("Maximum limit is 10 ");
+}
+catch
+{
+System.out.println(+e.toString());
+}
+}
